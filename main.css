@@ -1,0 +1,36 @@
+#container {
+	height:600px;
+	width:500px;
+}
+#FormMaster {
+
+	height:600px;
+	width:500px;
+}
+#headerDiv {
+	width:700px;
+	color:#fff;
+	background-color: blue;
+	height:50px;
+}
+#input {
+	display: block;
+	margin:10px;
+	width:500px;
+	padding-left: 30px;
+	height:30px;
+	margin-left:70px;
+	margin-right:30px;
+
+}
+
+#input:nth-child(7) {
+	height:100px;
+}
+
+#footerDiv {
+	width:700px;
+	color:#fff;
+	background-color: blue;
+	height:50px;
+}
