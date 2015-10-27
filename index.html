@@ -34,9 +34,20 @@
 		  <div id="inputDiv">
 		  	
 		  <input type="{{type}}" id="input" placeholder="{{label}}">
-		  	<span id="images" class="fa {{icon}}"</span> 
-		  
-		  {{#options.length}}<select><option value="{{value}}"></option></select>{{/options.length}}
+
+		  <span id="images" class="fa {{icon}}"></span>
+		 
+		  {{#options.length}}
+		  	<select>
+		  	{{#options}}
+		  		
+		  			<option value="{{value}}">{{label}}</option>
+
+		  		
+		  	{{/options}} 
+		  	</select>
+		  {{/options.length}}
+
 	</div>
 
 		

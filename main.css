@@ -1,12 +1,12 @@
 #container {
 	height:650px;
-	width:500px;
+	width:520px;
 	margin:auto;
 }
 #master {
 	border:2px solid gray;
 	border-radius:3px;
-	width:500px;
+	width:520px;
 	padding:0;
 
 }
@@ -17,7 +17,7 @@ h1 {
 	top:20px;
 }
 #headerDiv {
-	width:500px;
+	width:520px;
 	color:#fff;
 	background-color:#3B5998;
 	height:75px;
@@ -40,25 +40,28 @@ h1 {
 #inputDiv {
 	border:1px solid black;
 	border-radius: 3px;
+	margin:8px;
 
 
 }
 #images {
-	
-	position: relative;
 	right:450px;
+	position: relative;
+
 
 
 }
 
+#input:nth-child(4) {
+	display: none;
+}
 
-
-#input:nth-child(6) {
+#input:nth-child(7) {
 	height:100px;
 }
 
 #footerDiv {
-	width:500px;
+	width:520px;
 	color:#fff;
 	background-color: #6bcbdb;
 	height:75px;
