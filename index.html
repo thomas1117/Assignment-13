@@ -3,8 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Assignment-13-Colab</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
 
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+	
 </head>
 <body>
 
@@ -20,13 +23,25 @@
 <script src="main.js"></script>
 
 <script type="x-tmpl-mustache" id="form">
-	
-	<div id="headerDiv"></div>
+	<div id="master">
+		<div id="headerDiv">
+			<h1>Sign Up For My Web App</h1>
+		</div>
 	{{#data}}
 	
 	
-		<input type="{{type}}" id="input" placeholder="{{label}}"{{#options}}<select>{{options}}</select>{{/options}}/>
+
+		  <div id="inputDiv">
+		  	
+		  <input type="{{type}}" id="input" placeholder="{{label}}">
+		  	<span id="images" class="fa {{icon}}"</span> 
+		  
+		  {{#options.length}}<select><option value="{{value}}"></option></select>{{/options.length}}
+	</div>
+
 		
+
+	
 
 
 
@@ -36,7 +51,7 @@
 	
 	{{/data}}
 	<div id="footerDiv"></div>
-
+	</div>
 	
 
 
