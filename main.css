@@ -1,11 +1,11 @@
 #container {
-	height:650px;
+
 	width:520px;
 	margin:auto;
 }
 #master {
 	border:2px solid gray;
-	border-radius:3px;
+	border-radius:5px;
 	width:520px;
 	padding:0;
 
@@ -25,40 +25,41 @@ h1 {
 	position: relative;
 	margin-bottom:30px;
 }
-#input {
-	position:relative;
-	margin:2px;
-	width:425px;
-	padding-left: 30px;
-	height:30px;
-	
-	border:none;
-	
 
-}
 
 #inputDiv {
-	border:1px solid black;
+	border:1px solid #F7F7F7;
 	border-radius: 3px;
-	margin:8px;
-
-
-}
-#images {
-	right:450px;
-	position: relative;
-
-
-
+	margin:auto;
+	margin-bottom: 20px;
+	width:455px;
 }
 
-#input:nth-child(4) {
-	display: none;
+.input {
+	position:relative;
+	margin:2px;
+	margin-left:5px;
+	width:395px;
+	height:30px;
+	outline:none;
+	border:none;
 }
 
-#input:nth-child(7) {
+#user-comment {
 	height:100px;
 }
+
+
+#images {
+	
+	position:relative;
+	top:5px;
+	left:4px;
+}
+
+
+
+
 
 #footerDiv {
 	width:520px;
@@ -68,6 +69,11 @@ h1 {
 }
 
 select {
-	width:425px;
-	margin-left: 20px;
+	width:458px;
+	height:35px;
+	border:none;
+	position: relative;
+	left:30px;
+	margin-bottom: 20px;
+	
 }

@@ -23,45 +23,52 @@
 <script src="main.js"></script>
 
 <script type="x-tmpl-mustache" id="form">
+	
 	<div id="master">
 		<div id="headerDiv">
 			<h1>Sign Up For My Web App</h1>
 		</div>
-	{{#data}}
+		{{#data}}
 	
 	
 
-		  <div id="inputDiv">
-		  	
-		  <input type="{{type}}" id="input" placeholder="{{label}}">
+		  
+			  
+			 
+			  {{#options.length}}
+			  	<select>
+			  		
+			  		{{#options}}
+			  		
+			  			<option value="{{value}}">{{label}}</option>
 
-		  <span id="images" class="fa {{icon}}"></span>
-		 
-		  {{#options.length}}
-		  	<select>
-		  	{{#options}}
-		  		
-		  			<option value="{{value}}">{{label}}</option>
+			  		
+			  		{{/options}} 
 
-		  		
-		  	{{/options}} 
-		  	</select>
-		  {{/options.length}}
+			  	</select>
 
-	</div>
+			  {{/options.length}}
 
 		
 
-	
+
+
+		 	{{^options}}
+			  	
+			  	<div id="inputDiv">
+		  		<span id="images" class="fa {{icon}}"></span>
+			  	<input type="{{type}}" id="{{id}}" class="input" placeholder="{{label}}">
+			  		</div>
+
+			{{/options}}
 
 
 
-	
+		
+		{{/data}}
 
+		<div id="footerDiv"></div>
 
-	
-	{{/data}}
-	<div id="footerDiv"></div>
 	</div>
 	
 
