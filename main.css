@@ -27,18 +27,20 @@ h1 {
 }
 
 
-#inputDiv {
+.inputDiv {
 	border:1px solid #F7F7F7;
 	border-radius: 3px;
 	margin:auto;
 	margin-bottom: 20px;
 	width:455px;
+	position: relative;
+
 }
 
 .input {
 	position:relative;
 	margin:2px;
-	margin-left:5px;
+	margin-left:15px;
 	width:395px;
 	height:30px;
 	outline:none;
@@ -46,16 +48,16 @@ h1 {
 }
 
 #user-comment {
-	height:100px;
+	padding-top: 80px;
 }
 
 
 #images {
-	
-	position:relative;
-	top:5px;
-	left:4px;
+	position:absolute;
+	bottom:8px;
 }
+
+
 
 
 
