@@ -1,25 +1,33 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
 #container {
 
 	width:520px;
 	margin:auto;
 }
 #master {
-	border:2px solid gray;
+	border:1px solid gray;
 	border-radius:5px;
 	width:520px;
 	padding:0;
+	box-shadow: 1px 1px 1px #888888;
 
 }
 
 h1 {
 	margin: 0;
-	position: relative;
+	position: absolute;
+	left:15px;
 	top:20px;
+	font-weight: normal;
 }
 #headerDiv {
 	width:520px;
 	color:#fff;
-	background-color:#3B5998;
+	background-color:#6199e7;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
 	height:75px;
 	text-align: center;
 	position: relative;
@@ -28,7 +36,7 @@ h1 {
 
 
 .inputDiv {
-	border:1px solid #F7F7F7;
+	border:1px solid #b4b4b4;
 	border-radius: 3px;
 	margin:auto;
 	margin-bottom: 20px;
@@ -58,7 +66,18 @@ h1 {
 	left:5px;
 }
 
-
+#submit {
+	height:40px;
+	width:100px;
+	border-radius: 3px;
+	color:white;
+	background-color: blue;
+	position: relative;
+	top:15px;
+	left:15px;
+	border:none;
+	font-size: 14px;
+}
 
 
 
@@ -67,7 +86,9 @@ h1 {
 #footerDiv {
 	width:520px;
 	color:#fff;
-	background-color: #6bcbdb;
+	background-color: #c9e0ff;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
 	height:75px;
 }
 
