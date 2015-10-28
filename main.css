@@ -40,7 +40,7 @@ h1 {
 .input {
 	position:relative;
 	margin:2px;
-	margin-left:15px;
+	margin-left:25px;
 	width:395px;
 	height:30px;
 	outline:none;
@@ -55,6 +55,7 @@ h1 {
 #images {
 	position:absolute;
 	bottom:8px;
+	left:5px;
 }
 
 
