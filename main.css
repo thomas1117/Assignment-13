@@ -23,12 +23,11 @@ h1 {
 	font-weight: normal;
 }
 #headerDiv {
-	width:620px;
 	color:#fff;
 	background-color:#6199e7;
 	border-top-left-radius:2px;
 	border-top-right-radius:2px;
-	height:75px;
+	height:85px;
 	text-align: center;
 	position: relative;
 	margin-bottom:30px;
@@ -56,25 +55,25 @@ h1 {
 }
 
 #user-comment {
-	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 
 #images {
 	position:absolute;
-	bottom:8px;
+	top:10px;
 	left:5px;
 }
 
 #submit {
-	height:40px;
+	height:36px;
 	width:100px;
 	border-radius: 3px;
 	color:white;
 	background-color: blue;
 	position: relative;
-	top:15px;
-	left:25px;
+	top:25px;
+	left:28px;
 	border:none;
 	font-size: 14px;
 }
@@ -84,20 +83,25 @@ h1 {
 
 
 #footerDiv {
-	width:620px;
+	
 	color:#fff;
 	background-color: #c9e0ff;
 	border-bottom-left-radius:2px;
 	border-bottom-right-radius:2px;
-	height:75px;
+	height:85px;
+	position: relative;
+	margin-top:40px;
 }
 
 select {
 	width:558px;
 	height:35px;
-	border:none;
+	border:1px solid #b4b4b4;
 	position: relative;
 	left:30px;
 	margin-bottom: 20px;
+	outline:none;
+	background-color: none;
 	
 }
+
